@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #2c2c2c;
+  border-bottom: 2px solid #444;
+}
+
+.playlist {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.track {
+  background: #333;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.track h2 {
+  margin-top: 0;
+  color: #aad1f7;
+}
+
+.track p {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+audio {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2c2c2c;
+  font-size: 0.9rem;
+  color: #aaa;
+}
